@@ -1,0 +1,272 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.text-orangr {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+/* shared style */
+.secondary-bc {
+    background-color: #f4eeeb;
+}
+
+/* Header */
+.header {
+    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 150px;
+}
+
+.nav-title {
+    font-weight: 600;
+    font-size: 45px;
+    /* width: 100px;
+    height: 60px; */
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    margin: 0px 38px 0px 180px;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 580px;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-pic {
+    width: 580px;
+    height: 670px;
+}
+
+
+
+/********** Main Section***********/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 120px;
+}
+
+/* About Section ******/
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+
+    color: #757575;
+}
+
+.about-items {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 0 30px; */
+}
+
+.about-item {
+    margin: 20px 30px 50px 0px;
+}
+
+.item-title {
+    font-weight: bold;
+    color: #181818;
+}
+
+.item-description {
+    color: #757575;
+}
+
+/* What I do section*** */
+
+.section-title {
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+}
+
+.skill {
+    margin: 50px 20px 0 0;
+    color: FFFFFF;
+    /* width: 260px;
+    height: 360px; */
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px #1a1a1a;
+    border-radius: 5px;
+}
+
+.skill-title {
+    font-weight: bold;
+    color: #181818;
+
+}
+
+.skill-description {
+    color: #757575;
+
+}
+
+
+/* ***Resume ******* */
+.resume {
+
+}
+.resume hr{
+    margin: 20px 5px;
+}
+
+.resume-title {
+    font-weight: bold;
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    margin: 100px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.resume-column {
+    justify-content: center;
+}
+
+.resume-column-title {
+    font-weight: bold;
+    color: #181818;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.experiance-title{
+    font-weight: bold;
+    /* color: #181818; */
+    font-size: 25px;
+}
+.experiance-sub-title{
+    font-weight:600;
+    color: #757575;
+    font-size: 20px;
+}
+.experiance-description{
+    font-weight:400;
+    color: #757575;
+    font-size: 16px;
+}
+.btn-resume {
+  text-align: center;
+  margin: 50px;
+}
+
+
+/* ****Footer **** */
+footer{
+    padding:130px 230px ;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+width: 50%;
+}
+.section-title{
+    font-weight: bold;
+    color: #181818;
+    font-size: 30px;
+}
+.footer-column p{
+      font-weight:400;
+    color: #757575;
+    font-size: 16px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+height: 50px;
+display: block;
+background-color: white;
+width: 100%;
+padding: 10px 20px;
+border-radius: 5px;
+margin: 24px 0px;
+border: none;
+}
